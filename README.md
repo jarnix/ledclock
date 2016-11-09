@@ -15,6 +15,8 @@ cd /var/www
 git clone https://github.com/jarnix/nofussframework.git
 git clone https://github.com/jarnix/ledclock.git
 chown -R www-data.www-data ledclock
+a2enmod rewrite
+apt-get install -y php5-intl
 ```
 
 yoohoo
