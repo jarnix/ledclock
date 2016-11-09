@@ -1,11 +1,11 @@
-# requirements
+# Requirements
 
 - 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
-- 1 arduino uno
-- a led strip: I used (this one)[https://www.adafruit.com/product/2842]
+- 1 Arduino Uno
+- a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
 - some patience if you have a cat and even more if you have more than one
 
-# installation
+# Installation
 ```
 sudo apt-get install -y php5
 sudo apt-get install -y git
@@ -19,7 +19,7 @@ sudo apt-get install -y php5-intl
 sudo service apache2 restart
 ```
 
-# apache vhost config
+# Apache vhost config
 ```
 <VirtualHost *:80>
         ServerAdmin webmaster@localhost
@@ -34,6 +34,6 @@ sudo service apache2 restart
 </VirtualHost>
 ```
 
-# usage
+# Usage
 
 http://<ip of your raspberry>
