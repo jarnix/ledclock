@@ -49,7 +49,7 @@ Then plug your led strip to a 5V * 2A power supply.
 
 You should see an animation. If not, check the wiring.
 
-<img src="IMG_20170112_223533.jpg">
+<img src="photos/IMG_20170112_223533.jpg">
 
 # Installation of the web application
 
