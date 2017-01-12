@@ -58,16 +58,23 @@ I chose to use MDF since it's cheaper than 3d printing at this size.
 
 The wiring may depend on the led strip that you chose. The [tutorial at Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections) is good enough.
 
-# First test
+# First test of the led strip connected to the Arduino
 
 To check your wiring, use the arduino code located in the arduino/v0 folder.
 
 Be sure to download the library for the Arduino here:
 [Arduino Library Installation](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
 
-And plug your led strip with a 5V * 2A power supply.
+## Installation of the NeoPixel library
+Recent versions of the Arduino IDE (1.6.2 and later) make library installation super easy via the Library Manager interface. From the Sketch menu, > Include Library > Manage Libraries...  In the text input box type in "NeoPixel". Look for "Adafruit NeoPixel by Adafruit" and select the latest version by clicking on the dropbox menu next to the Install button. Then click on the Install button. After it's installed, you can click the "close" button.
 
-You should see an animation
+<img src="photos/leds_arduino-library-manager.png">
+
+Upload the v0.ino to your Arduino connected to an usb port.
+
+Then plug your led strip to a 5V * 2A power supply.
+
+You should see an animation. If not, check the wiring.
 
 # Usage
 
