@@ -58,6 +58,8 @@ I chose to use MDF since it's cheaper than 3d printing at this size.
 
 The wiring may depend on the led strip that you chose. The [tutorial at Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections) is good enough.
 
+<img src="photos/leds_Wiring-Diagram.png">
+
 # First test of the led strip connected to the Arduino
 
 To check your wiring, use the arduino code located in the arduino/v0 folder.
