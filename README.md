@@ -6,35 +6,6 @@
 - some patience if you have a cat and even more if you have more than one
 - a structure (3d printed or something else)
 
-# Installation
-```
-sudo apt-get install -y php5
-sudo apt-get install -y git
-sudo su -s /bin/bash www-data
-cd /var/www
-git clone https://github.com/jarnix/nofussframework.git
-git clone https://github.com/jarnix/ledclock.git
-sudo chown -R www-data.www-data ledclock
-sudo a2enmod rewrite
-sudo apt-get install -y php5-intl
-sudo service apache2 restart
-```
-
-# Apache vhost config
-```
-<VirtualHost *:80>
-        ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/ledclock/webapp/html
-
-        <Directory /var/www/ledclock/webapp/html>
-                AllowOverride All
-        </Directory>
-        
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
-```
-
 # Structure
 
 I chose to use MDF since it's cheaper than 3d printing at this size.
@@ -78,6 +49,41 @@ Then plug your led strip to a 5V * 2A power supply.
 
 You should see an animation. If not, check the wiring.
 
+# Installation of the web application
+
+## Apache vhost config
+
+Obviously you should modify these lines according to your Raspberry's configuration. I chose the port 80 that might already be in use. Check with your local BOFH for help.
+
+```
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/ledclock/webapp/html
+
+        <Directory /var/www/ledclock/webapp/html>
+                AllowOverride All
+        </Directory>
+        
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+## Installation of the packages and the webapp
+```
+sudo apt-get install -y php5
+sudo apt-get install -y git
+sudo su -s /bin/bash www-data
+cd /var/www
+git clone https://github.com/jarnix/nofussframework.git
+git clone https://github.com/jarnix/ledclock.git
+sudo chown -R www-data.www-data ledclock
+sudo a2enmod rewrite
+sudo apt-get install -y php5-intl
+sudo service apache2 restart
+```
+
 # Usage
 
 http://<ip of your raspberry>
+
