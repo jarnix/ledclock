@@ -4,6 +4,7 @@
 - 1 Arduino Uno
 - a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
 - some patience if you have a cat and even more if you have more than one
+- a structure (3d printed or something else)
 
 # Installation
 ```
@@ -23,9 +24,9 @@ sudo service apache2 restart
 ```
 <VirtualHost *:80>
         ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/ledclock/html
+        DocumentRoot /var/www/ledclock/webapp/html
 
-        <Directory /var/www/ledclock/html>
+        <Directory /var/www/ledclock/webapp/html>
                 AllowOverride All
         </Directory>
         
@@ -33,6 +34,45 @@ sudo service apache2 restart
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
+
+# Structure
+
+I chose to use MDF since it's cheaper than 3d printing at this size.
+
+*disque de masquage*
+
+outer radius
+16.6 cm
+
+inner radius
+12.8 cm
+
+height
+0.3 cm
+
+==disque socle
+
+outer radius
+15.92 cm
+
+inner radius
+12.8 cm
+
+height
+1 cm
+
+===
+disque inférieur
+
+outer radius
+18.2 cm
+
+inner radius
+14.4 cm
+
+height
+1 cm
+
 
 # Usage
 
