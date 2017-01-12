@@ -43,9 +43,14 @@ Recent versions of the Arduino IDE (1.6.2 and later) make library installation s
 
 <img src="photos/leds_arduino-library-manager.png">
 
-Upload the v0.ino to your Arduino connected to an usb port.
+Upload the v0.ino to your Arduino connected to an usb port of your computer.
 
-Then plug your led strip to a 5V * 2A power supply.
+## Test
+
+Plug:
+- the wire of the data pin of the led strip to the pin number 6 of your Arduino
+- the ground wire to one of the two ground pins of the Arduino
+- your led strip to a 5V * 2A power supply.
 
 You should see an animation. If not, check the wiring.
 
