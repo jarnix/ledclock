@@ -39,40 +39,35 @@ sudo service apache2 restart
 
 I chose to use MDF since it's cheaper than 3d printing at this size.
 
-*disque de masquage*
+### upper disc
+- outer radius: 16.6 cm
+- inner radius: 12.8 cm
+- height: 0.3 cm
 
-outer radius
-16.6 cm
+### main disc
+- outer radius: 15.92 cm
+- inner radius: 12.8 cm
+- height: 1 cm
 
-inner radius
-12.8 cm
+### lower disc
+- outer radius: 18.2 cm
+- inner radius: 14.4 cm
+- height: 1 cm
 
-height
-0.3 cm
+# Wiring
 
-==disque socle
+The wiring may depend on the led strip that you chose. The [tutorial at Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections) is good enough.
 
-outer radius
-15.92 cm
+# First test
 
-inner radius
-12.8 cm
+To check your wiring, use the arduino code located in the arduino/v0 folder.
 
-height
-1 cm
+Be sure to download the library for the Arduino here:
+[Arduino Library Installation](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
 
-===
-disque inférieur
+And plug your led strip with a 5V * 2A power supply.
 
-outer radius
-18.2 cm
-
-inner radius
-14.4 cm
-
-height
-1 cm
-
+You should see an animation
 
 # Usage
 
