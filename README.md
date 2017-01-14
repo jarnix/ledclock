@@ -2,7 +2,7 @@
 
 - 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
 - 1 Arduino Uno
-- a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
+- a led strip: [for example: this one from adafruit](https://www.adafruit.com/product/2842)
 - a power supply for the led strip 5V / 2A, and the Arduino (5V / 1A), and the Raspberry Pi (also 5V / 1A), we will use just a single power supply (5V / 6A) for the actual build
 - a 1000 µF capacitor and a 470 ohm resistor for the led strip
 - a structure (3d printed or something else)
