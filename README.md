@@ -3,6 +3,7 @@
 - 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
 - 1 Arduino Uno
 - a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
+- a power supply for the led strip 5V / 2A
 - some patience if you have a cat and even more if you have more than one
 - a structure (3d printed or something else)
 
@@ -55,6 +56,32 @@ Plug:
 You should see an animation. If not, check the wiring.
 
 <img src="photos/IMG_20170112_223533.jpg">
+
+
+# Build
+
+## Wiring
+
+We need to put the cables together in a tube.
+
+Isolate the capacitor and the connector. Cut the cable and solder 3 long cables:
+- one for power supply
+- one for the ground
+- one for data
+
+Cut the cables and keep this apart:
+<img src="IMG_20170114_193142.jpg">
+
+Solder each cable to their respective brother. Put some tape around your soldering to isolate them.
+<img src="IMG_20170114_194057.jpg">
+
+Put the 3 long cables in a tube, like this one (you can do what you want, this is ugly I agree but it's temporary):
+
+<img src="IMG_20170114_194639.jpg">
+
+## Power supply for the Arduino, the Raspberry Pi, and the led strip
+
+
 
 # Installation of the web application
 
