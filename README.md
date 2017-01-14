@@ -26,7 +26,7 @@ I chose to use MDF since it's cheaper than 3d printing at this size.
 - inner radius: 14.4 cm
 - height: 1 cm
 
-The discs look like this:
+The discs look like this (with the led strip temporarily attached so you can understand):
 
 <img src="photos/IMG_20170114_211917.jpg">
 
