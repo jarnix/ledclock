@@ -3,9 +3,9 @@
 - 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
 - 1 Arduino Uno
 - a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
-- a power supply for the led strip 5V / 2A
-- some patience if you have a cat and even more if you have more than one
+- a power supply for the led strip 5V / 2A, the Arduino (5V) and the Raspberry Pi (also 5V), we will use just a single power supply (5V, 6A) for the actual build
 - a structure (3d printed or something else)
+- some patience if you have a cat and even more if you have more than one
 
 # Structure
 
@@ -25,6 +25,14 @@ I chose to use MDF since it's cheaper than 3d printing at this size.
 - outer radius: 18.2 cm
 - inner radius: 14.4 cm
 - height: 1 cm
+
+The discs look like this:
+
+<img src="photos/IMG_20170114_211917.jpg">
+
+I will paint them and glue them together so the upper disc covers the side of the led strip (so we only see the light and not the ugly leds), and the main disc will be use for hanging it to the wall (and maybe a mod with translucent cubes to spread the light, that may come later).
+
+<img src="photos/IMG_20170114_212006.jpg">
 
 # Wiring
 
@@ -65,9 +73,9 @@ You should see an animation. If not, check the wiring.
 We need to put the cables together in a tube.
 
 Isolate the capacitor and the connector. Cut the cable and solder 3 long cables:
-- one for power supply
-- one for the ground
-- one for data
+- one for power supply (red)
+- one for the ground (a dark color)
+- one for data (yellow, or white)
 
 Cut the cables and keep this apart:
 <img src="photos/IMG_20170114_193142.jpg">
@@ -81,7 +89,27 @@ Put the 3 long cables in a tube, like this one (you can do what you want, this i
 
 ## Power supply for the Arduino, the Raspberry Pi, and the led strip
 
+During this step, be *extremely careful* when dealing with power supply from your outlet. Do not drink alcohol while doing this.
 
+Be also careful not to invert the cables since you can burn the components.
+
+We are going to use a single power supply for all of them.
+
+### Raspberry Pi
+
+The Raspberry Pi needs a 5 V. The power IN is the pin n°2 and the ground is the pin n°6 as you can see on this photo:
+
+<img src="photos/IMG_20170114_205915.jpg">
+
+### Arduino
+
+The Arduino has two pins named Vin for voltage IN and GND for ground:
+
+<img src="photos/IMG_20170114_210738.jpg">
+
+### Led strip
+
+The led strip needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip.
 
 # Installation of the web application
 
