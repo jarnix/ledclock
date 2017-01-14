@@ -106,19 +106,19 @@ We are going to use a single power supply for all of them.
 
 ### Raspberry Pi
 
-The Raspberry Pi needs a 5 V. The power IN is the pin n°2 and the ground is the pin n°6 as you can see on this photo:
+The Raspberry Pi needs 5V. The power IN is the pin n°2 and the ground is the pin n°6 as you can see on this photo:
 
 <img src="photos/IMG_20170114_205915.jpg">
 
 ### Arduino
 
-The Arduino has two pins named Vin for voltage IN and GND for ground:
+The Arduino also needs 5V and has two pins named Vin for voltage IN and GND for ground:
 
 <img src="photos/IMG_20170114_210738.jpg">
 
 ### Led strip
 
-The led strip needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip, so the red one and the dark/black one.
+The led strip requires 5V and needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip, so: the red one and the dark/black one.
 
 
 ---
