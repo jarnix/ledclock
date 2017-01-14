@@ -1,6 +1,6 @@
 # Requirements
 
-- 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
+- 1 Raspberry Pi, raspbian installed, an IP address assigned to your Raspberry Pi on the wifi interface
 - 1 Arduino Uno
 - a led strip: [for example: this one from adafruit](https://www.adafruit.com/product/2842)
 - a power supply for the led strip 5V / 2A, and the Arduino (5V / 1A), and the Raspberry Pi (also 5V / 1A), we will use just a single power supply (5V / 6A) for the actual build
