@@ -3,7 +3,8 @@
 - 1 Raspberry Pi, raspbian installed, an IP address for your Raspberry Pi (use your dhcp server)
 - 1 Arduino Uno
 - a led strip: [buy this one from adafruit](https://www.adafruit.com/product/2842)
-- a power supply for the led strip 5V / 2A, the Arduino (5V) and the Raspberry Pi (also 5V), we will use just a single power supply (5V, 6A) for the actual build
+- a power supply for the led strip 5V / 2A, and the Arduino (5V / 1A), and the Raspberry Pi (also 5V / 1A), we will use just a single power supply (5V / 6A) for the actual build
+- a 1000 µF capacitor and a 470 ohm resistor for the led strip
 - a structure (3d printed or something else)
 - some patience if you have a cat and even more if you have more than one
 
@@ -38,21 +39,28 @@ I will paint them and glue them together so the upper disc covers the side of th
 
 The wiring may depend on the led strip that you chose. The [tutorial at Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections) is good enough.
 
+You will need a 1000 µF capacitor and a 470 ohm resistor.
+
 <img src="photos/leds_Wiring-Diagram.png">
 
 # First test of the led strip connected to the Arduino
 
-To check your wiring, use the arduino code located in the arduino/v0 folder.
+## Installation of the NeoPixel library
 
-Be sure to download the library for the Arduino here:
+Please download the library for the Arduino for talking to the led strip here:
 [Arduino Library Installation](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
 
-## Installation of the NeoPixel library
 Recent versions of the Arduino IDE (1.6.2 and later) make library installation super easy via the Library Manager interface. From the Sketch menu, > Include Library > Manage Libraries...  In the text input box type in "NeoPixel". Look for "Adafruit NeoPixel by Adafruit" and select the latest version by clicking on the dropbox menu next to the Install button. Then click on the Install button. After it's installed, you can click the "close" button.
 
 <img src="photos/leds_arduino-library-manager.png">
 
-Upload the v0.ino to your Arduino connected to an usb port of your computer.
+## Upload of the code
+
+To check your wiring, we will use the example Arduino code located in the arduino/v0 folder.
+
+Open the file arduino/v0/v0.ino with your Arduino IDE.
+
+Upload the code to your Arduino connected to an usb port of your computer.
 
 ## Test
 
@@ -61,21 +69,22 @@ Plug:
 - the ground wire to one of the two ground pins of the Arduino
 - your led strip to a 5V * 2A power supply.
 
-You should see an animation. If not, check the wiring.
+You should see an animation. If not, check the wiring. The leds should do a animation like on this picture:
 
 <img src="photos/IMG_20170112_223533.jpg">
-
 
 # Build
 
 ## Wiring
 
-We need to put the cables together in a tube.
+We need to put the cables together in a tube to hide them and then plug all the things to a power source.
 
-Isolate the capacitor and the connector. Cut the cable and solder 3 long cables:
+Isolate the cables connected to the led strip. Cut the cables and solder them with 3 other longer cables:
 - one for power supply (red)
 - one for the ground (a dark color)
 - one for data (yellow, or white)
+
+I used 2 meter cables, which should be enough excepted if you're a giant.
 
 Cut the cables and keep this apart:
 <img src="photos/IMG_20170114_193142.jpg">
