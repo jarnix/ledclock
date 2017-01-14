@@ -100,7 +100,7 @@ Put the 3 long cables in a tube, like this one (you can do what you want, this i
 
 During this step, be *extremely careful* when dealing with power supply from your outlet. Do not drink alcohol while doing this.
 
-Be also careful not to invert the cables since you can burn the components.
+Be also careful not to invert the cables since you can burn the components of your Arduino and/or Raspberry Pi.
 
 We are going to use a single power supply for all of them.
 
@@ -118,7 +118,12 @@ The Arduino has two pins named Vin for voltage IN and GND for ground:
 
 ### Led strip
 
-The led strip needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip.
+The led strip needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip, so the red one and the dark/black one.
+
+
+---
+wip
+---
 
 # Installation of the web application
 
