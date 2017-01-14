@@ -70,14 +70,14 @@ Isolate the capacitor and the connector. Cut the cable and solder 3 long cables:
 - one for data
 
 Cut the cables and keep this apart:
-<img src="IMG_20170114_193142.jpg">
+<img src="photos/IMG_20170114_193142.jpg">
 
 Solder each cable to their respective brother. Put some tape around your soldering to isolate them.
-<img src="IMG_20170114_194057.jpg">
+<img src="photos/IMG_20170114_194057.jpg">
 
 Put the 3 long cables in a tube, like this one (you can do what you want, this is ugly I agree but it's temporary):
 
-<img src="IMG_20170114_194639.jpg">
+<img src="photos/IMG_20170114_194639.jpg">
 
 ## Power supply for the Arduino, the Raspberry Pi, and the led strip
 
