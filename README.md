@@ -124,11 +124,6 @@ The Arduino also needs 5V and has two pins named Vin for voltage IN and GND for 
 
 The led strip requires 5V and needs to be connected also, use the corresponding 2 cables from the 3 connected to the led strip, so: the red one and the dark/black one.
 
-
----
-wip
----
-
 # Customizing the box
 
 The box will need a small hole for the power supply cable, and two larger ones for the air fans. I chose to put one fan on the right and one on top of the box.
@@ -148,6 +143,10 @@ Second and third hole for the fans:
 So the box should look like that:
 
 <img src="photos/IMG_20170121_201828.jpg">
+
+---
+wip
+---
 
 # Installation of the web application
 
