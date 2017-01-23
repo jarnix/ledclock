@@ -144,6 +144,21 @@ So the box should look like that:
 
 <img src="photos/IMG_20170121_201828.jpg">
 
+# fans
+
+To attach the fans to the box, I drawed [this object](https://sketchfab.com/models/18709e0d36ae43969bd89f850368d4fc) in 3d:
+
+<img src="photos/fastener.png">
+
+And printed it (~ 10 €):
+
+
+But you can also use anything, you can cut some plastic or some metal fixings.
+
+
+
+
+
 ---
 wip
 ---
