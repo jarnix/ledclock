@@ -146,7 +146,7 @@ So the box should look like that:
 
 # Attaching the fans to the box
 
-To attach the fans to the box, I drawed this object in 3d:
+To attach the fans to the box, I drew this object in 3d:
 
 <img src="photos/fastener.png">
 
