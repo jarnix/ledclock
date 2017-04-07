@@ -166,11 +166,11 @@ I painted the discs in black, painted the box in black and used a black cord aro
 
 The box on this photo contains only the power source, a tiny breadboard, the arduino, and two small fans that are not connected yet.
 
-<img src="IMG_20170408_000947.jpg">
+<img src="photos/IMG_20170408_000947.jpg">
 
 ## A preview of what it will be
 
-<img src="IMG_20170408_001042.jpg">
+<img src="photos/IMG_20170408_001042.jpg">
 
 ## Connect the Pi to the power source
 
