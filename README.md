@@ -183,8 +183,12 @@ Do not use glue, use double-sided adhesive tape, [like this one](https://www.ama
 ## 
 
 ---
-TODO
+The code
 ---
+
+# First test of the clock
+
+Use the code in arduino/v1/v1.ino
 
 # Installation of the web application
 
